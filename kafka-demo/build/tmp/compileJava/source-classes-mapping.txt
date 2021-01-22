@@ -1,8 +1,0 @@
-com/vczyh/Consumer.java
- com.vczyh.Consumer
-com/vczyh/App.java
- com.vczyh.App
-com/vczyh/Producer.java
- com.vczyh.Producer
-com/vczyh/Init.java
- com.vczyh.Init
