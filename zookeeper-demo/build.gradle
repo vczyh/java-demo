@@ -6,8 +6,11 @@ group 'com.vczyh'
 version '1.0-SNAPSHOT'
 
 repositories {
+    maven { url 'https://maven.aliyun.com/repository/public/' }
+    mavenLocal()
     mavenCentral()
 }
+
 
 dependencies {
     testCompile group: 'junit', name: 'junit', version: '4.12'
