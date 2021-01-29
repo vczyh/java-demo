@@ -22,9 +22,9 @@ dependencies {
     // spring
     implementation 'org.springframework.boot:spring-boot-starter-web'
     testImplementation 'org.springframework.boot:spring-boot-starter-test'
-    compile group: 'org.apache.shardingsphere', name: 'sharding-jdbc-core', version: '4.1.1'
     // tool
     compileOnly 'org.projectlombok:lombok'
+    annotationProcessor 'org.projectlombok:lombok'
     // JDBC
     runtimeOnly 'mysql:mysql-connector-java'
     compile group: 'com.alibaba', name: 'druid', version: '1.2.4'
